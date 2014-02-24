@@ -1,0 +1,30 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+.DS_Store
+
+
+#Android generated
+bin
+gen
+obj
+lint.xml
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+#Other
+tmp
+
+#gradle
+build
+
+#Android Studio
+out
+
+proguard-rules.txt
