@@ -16,6 +16,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -25,9 +29,5 @@ dependencies {
     compile 'com.github.chrisbanes.actionbarpulltorefresh:extra-abc:+'
     compile 'com.j256.ormlite:ormlite-android:4.47'
     compile 'com.google.oauth-client:google-oauth-client:1.17.0-rc'
-    
-    
-    
-
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
